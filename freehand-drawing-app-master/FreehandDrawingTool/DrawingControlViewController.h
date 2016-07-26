@@ -13,7 +13,6 @@
 - (void)sliderChanged:(CGFloat)value;
 - (void)colorChosen:(UIColor *)color;
 - (void)clearButton;
-- (void)saveDrawing;
 
 @end
 

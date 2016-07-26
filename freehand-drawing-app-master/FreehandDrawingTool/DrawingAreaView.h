@@ -10,7 +10,6 @@
 #import "DrawingControlViewController.h"
 #import "AppDelegate.h"
 
-
 @interface DrawingAreaView : UIView <DrawViewDelegate>
 
 @end

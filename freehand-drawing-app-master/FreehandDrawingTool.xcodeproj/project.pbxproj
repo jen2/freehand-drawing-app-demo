@@ -7,21 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B666F3D1D3ED89E00377A46 /* DrawingData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B666F3A1D3ED89E00377A46 /* DrawingData+CoreDataProperties.m */; };
-		4B666F3E1D3ED89E00377A46 /* DrawingData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B666F3C1D3ED89E00377A46 /* DrawingData.m */; };
 		4B7C2C261D3ECA78008CFE30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C251D3ECA78008CFE30 /* main.m */; };
 		4B7C2C291D3ECA78008CFE30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C281D3ECA78008CFE30 /* AppDelegate.m */; };
 		4B7C2C2F1D3ECA78008CFE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C2C2D1D3ECA78008CFE30 /* Main.storyboard */; };
-		4B7C2C321D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C301D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodeld */; };
 		4B7C2C341D3ECA78008CFE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C2C331D3ECA78008CFE30 /* Assets.xcassets */; };
 		4B7C2C371D3ECA78008CFE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C2C351D3ECA78008CFE30 /* LaunchScreen.storyboard */; };
 		4B7C2C421D3ECA78008CFE30 /* FreehandDrawingToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C411D3ECA78008CFE30 /* FreehandDrawingToolTests.m */; };
 		4B7C2C4D1D3ECA78008CFE30 /* FreehandDrawingToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C4C1D3ECA78008CFE30 /* FreehandDrawingToolUITests.m */; };
 		4B7C2C621D3ECD04008CFE30 /* DrawingAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C611D3ECD04008CFE30 /* DrawingAreaView.m */; };
 		4B7C2C651D3ECD3C008CFE30 /* DrawingControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C641D3ECD3C008CFE30 /* DrawingControlViewController.m */; };
-		4B7C2C681D3ECD71008CFE30 /* DrawingDatastore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C671D3ECD71008CFE30 /* DrawingDatastore.m */; };
-		4B7C2C6B1D3ECDAA008CFE30 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C6A1D3ECDAA008CFE30 /* GalleryCollectionViewController.swift */; };
-		4B7C2C6D1D3ECDD8008CFE30 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C2C6C1D3ECDD8008CFE30 /* GalleryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B666F391D3ED89E00377A46 /* DrawingData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DrawingData+CoreDataProperties.h"; sourceTree = "<group>"; };
-		4B666F3A1D3ED89E00377A46 /* DrawingData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DrawingData+CoreDataProperties.m"; sourceTree = "<group>"; };
-		4B666F3B1D3ED89E00377A46 /* DrawingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingData.h; sourceTree = "<group>"; };
-		4B666F3C1D3ED89E00377A46 /* DrawingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingData.m; sourceTree = "<group>"; };
 		4B7C2C211D3ECA78008CFE30 /* FreehandDrawingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreehandDrawingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7C2C251D3ECA78008CFE30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B7C2C271D3ECA78008CFE30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B7C2C281D3ECA78008CFE30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4B7C2C2E1D3ECA78008CFE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4B7C2C311D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreehandDrawingTool.xcdatamodel; sourceTree = "<group>"; };
 		4B7C2C331D3ECA78008CFE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7C2C361D3ECA78008CFE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B7C2C381D3ECA78008CFE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,11 +54,6 @@
 		4B7C2C611D3ECD04008CFE30 /* DrawingAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingAreaView.m; sourceTree = "<group>"; };
 		4B7C2C631D3ECD3C008CFE30 /* DrawingControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingControlViewController.h; sourceTree = "<group>"; };
 		4B7C2C641D3ECD3C008CFE30 /* DrawingControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingControlViewController.m; sourceTree = "<group>"; };
-		4B7C2C661D3ECD71008CFE30 /* DrawingDatastore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingDatastore.h; sourceTree = "<group>"; };
-		4B7C2C671D3ECD71008CFE30 /* DrawingDatastore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingDatastore.m; sourceTree = "<group>"; };
-		4B7C2C691D3ECDAA008CFE30 /* FreehandDrawingTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreehandDrawingTool-Bridging-Header.h"; sourceTree = "<group>"; };
-		4B7C2C6A1D3ECDAA008CFE30 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
-		4B7C2C6C1D3ECDD8008CFE30 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,17 +108,11 @@
 				4B7C2C281D3ECA78008CFE30 /* AppDelegate.m */,
 				4B7C2C5A1D3ECC60008CFE30 /* Controller */,
 				4B7C2C5B1D3ECC78008CFE30 /* View */,
-				4B7C2C5C1D3ECC82008CFE30 /* Model */,
 				4B7C2C2D1D3ECA78008CFE30 /* Main.storyboard */,
 				4B7C2C331D3ECA78008CFE30 /* Assets.xcassets */,
 				4B7C2C351D3ECA78008CFE30 /* LaunchScreen.storyboard */,
 				4B7C2C381D3ECA78008CFE30 /* Info.plist */,
-				4B7C2C301D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodeld */,
 				4B7C2C241D3ECA78008CFE30 /* Supporting Files */,
-				4B666F391D3ED89E00377A46 /* DrawingData+CoreDataProperties.h */,
-				4B666F3A1D3ED89E00377A46 /* DrawingData+CoreDataProperties.m */,
-				4B666F3B1D3ED89E00377A46 /* DrawingData.h */,
-				4B666F3C1D3ED89E00377A46 /* DrawingData.m */,
 			);
 			path = FreehandDrawingTool;
 			sourceTree = "<group>";
@@ -142,7 +120,6 @@
 		4B7C2C241D3ECA78008CFE30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B7C2C691D3ECDAA008CFE30 /* FreehandDrawingTool-Bridging-Header.h */,
 				4B7C2C251D3ECA78008CFE30 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -171,7 +148,6 @@
 			children = (
 				4B7C2C631D3ECD3C008CFE30 /* DrawingControlViewController.h */,
 				4B7C2C641D3ECD3C008CFE30 /* DrawingControlViewController.m */,
-				4B7C2C6A1D3ECDAA008CFE30 /* GalleryCollectionViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -181,18 +157,8 @@
 			children = (
 				4B7C2C601D3ECD04008CFE30 /* DrawingAreaView.h */,
 				4B7C2C611D3ECD04008CFE30 /* DrawingAreaView.m */,
-				4B7C2C6C1D3ECDD8008CFE30 /* GalleryCollectionViewCell.swift */,
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		4B7C2C5C1D3ECC82008CFE30 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				4B7C2C661D3ECD71008CFE30 /* DrawingDatastore.h */,
-				4B7C2C671D3ECD71008CFE30 /* DrawingDatastore.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,15 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B666F3E1D3ED89E00377A46 /* DrawingData.m in Sources */,
-				4B666F3D1D3ED89E00377A46 /* DrawingData+CoreDataProperties.m in Sources */,
-				4B7C2C681D3ECD71008CFE30 /* DrawingDatastore.m in Sources */,
-				4B7C2C6D1D3ECDD8008CFE30 /* GalleryCollectionViewCell.swift in Sources */,
 				4B7C2C621D3ECD04008CFE30 /* DrawingAreaView.m in Sources */,
 				4B7C2C291D3ECA78008CFE30 /* AppDelegate.m in Sources */,
 				4B7C2C651D3ECD3C008CFE30 /* DrawingControlViewController.m in Sources */,
-				4B7C2C321D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodeld in Sources */,
-				4B7C2C6B1D3ECDAA008CFE30 /* GalleryCollectionViewController.swift in Sources */,
 				4B7C2C261D3ECA78008CFE30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,19 +544,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4B7C2C301D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4B7C2C311D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodel */,
-			);
-			currentVersion = 4B7C2C311D3ECA78008CFE30 /* FreehandDrawingTool.xcdatamodel */;
-			path = FreehandDrawingTool.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4B7C2C191D3ECA78008CFE30 /* Project object */;
 }

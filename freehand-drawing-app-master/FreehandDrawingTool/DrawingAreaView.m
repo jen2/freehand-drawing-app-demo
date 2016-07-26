@@ -7,8 +7,7 @@
 //
 
 #import "DrawingAreaView.h"
-#import "DrawingDatastore.h"
-#import "DrawingData.h"
+
 
 @interface DrawingAreaView ()
 
@@ -141,28 +140,5 @@
     self.lineColor = color;
 }
 
--(void)saveDrawing
-{
-    UIImage *drawingToBeSaved = self.incrementalImage;
-    NSData *imageData = UIImagePNGRepresentation(drawingToBeSaved);
-    DrawingDatastore *dataStore = [DrawingDatastore sharedDatastore];
-    DrawingData *newDrawing = [NSEntityDescription insertNewObjectForEntityForName:@"BezierData" inManagedObjectContext:dataStore.managedObjectContext];
-    newDrawing.drawingImage =  imageData;
-    
-    //    DrawingDatastore *dataStore = [DrawingDatastore sharedDatastore];
-    //    BezierData *newDrawing = [NSEntityDescription insertNewObjectForEntityForName:@"BezierData" inManagedObjectContext:dataStore.managedObjectContext];
-    //    //Convert UIImage to NSData
-    //
-    //    NSData* drawingData = UIImagePNGRepresentation(drawingToBeSaved);
-    //
-    //    newDrawing.drawingImage =  drawingData;
-    //    NSLog(@"Drawing Image: %@", newDrawing.drawingImage);
-    //
-    //    // TODO: newDrawing.drawingTitle : collect a title for the users drawing, use an alert view controller or modal to add this text
-    //
-    
-    [dataStore saveContext];
-    
-}
 
 @end

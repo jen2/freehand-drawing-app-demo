@@ -1,3 +1,3 @@
 # freehand-drawing-app-demo
 
-![alt text](assets/IMG_1480.png "Demo screen shot")
+![alt text](freehand-drawing-app-master/assets/IMG_1480.png "Demo screen shot")

@@ -106,8 +106,10 @@
 			children = (
 				4B7C2C271D3ECA78008CFE30 /* AppDelegate.h */,
 				4B7C2C281D3ECA78008CFE30 /* AppDelegate.m */,
-				4B7C2C5A1D3ECC60008CFE30 /* Controller */,
-				4B7C2C5B1D3ECC78008CFE30 /* View */,
+				4B7C2C631D3ECD3C008CFE30 /* DrawingControlViewController.h */,
+				4B7C2C641D3ECD3C008CFE30 /* DrawingControlViewController.m */,
+				4B7C2C601D3ECD04008CFE30 /* DrawingAreaView.h */,
+				4B7C2C611D3ECD04008CFE30 /* DrawingAreaView.m */,
 				4B7C2C2D1D3ECA78008CFE30 /* Main.storyboard */,
 				4B7C2C331D3ECA78008CFE30 /* Assets.xcassets */,
 				4B7C2C351D3ECA78008CFE30 /* LaunchScreen.storyboard */,
@@ -141,24 +143,6 @@
 				4B7C2C4E1D3ECA78008CFE30 /* Info.plist */,
 			);
 			path = FreehandDrawingToolUITests;
-			sourceTree = "<group>";
-		};
-		4B7C2C5A1D3ECC60008CFE30 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4B7C2C631D3ECD3C008CFE30 /* DrawingControlViewController.h */,
-				4B7C2C641D3ECD3C008CFE30 /* DrawingControlViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		4B7C2C5B1D3ECC78008CFE30 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4B7C2C601D3ECD04008CFE30 /* DrawingAreaView.h */,
-				4B7C2C611D3ECD04008CFE30 /* DrawingAreaView.m */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

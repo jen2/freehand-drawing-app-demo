@@ -26,7 +26,7 @@
     self.slider.maximumValue = 15.0;
 }
 
-#pragma mark DrawViewControllerDelegate Methods
+#pragma mark Draw View Controller Delegate Methods
 
 - (IBAction)valueChangedOnSLider:(UISlider *)sender
 {

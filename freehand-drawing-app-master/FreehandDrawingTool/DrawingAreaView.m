@@ -53,7 +53,7 @@
     return self;
 }
 
-#pragma mark Actions
+#pragma mark Touches Actions
 
 - (void)drawRect:(CGRect)rect
 {
@@ -72,7 +72,6 @@
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    NSLog(@"touches moved");
     UITouch *touch = [touches anyObject];
     CGPoint p = [touch locationInView:self];
     self.ctr++;
@@ -90,7 +89,6 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    NSLog(@"touches ended");
     [self drawBitmap];
     [self setNeedsDisplay];
     [self.path removeAllPoints];
@@ -119,7 +117,7 @@
     UIGraphicsEndImageContext();
 }
 
-#pragma mark DrawingViewDelegate
+#pragma mark Drawing View Delegate Methods
 
 - (void)clearButton
 {

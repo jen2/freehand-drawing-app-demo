@@ -8,7 +8,6 @@
 
 #import "DrawingAreaView.h"
 
-
 @interface DrawingAreaView ()
 
 @property (nonatomic, strong) UIBezierPath *path;
@@ -139,6 +138,5 @@
 {
     self.lineColor = color;
 }
-
 
 @end
